@@ -1,0 +1,1089 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*-样式重置-*/
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+/*-导航开始-*/
+nav ul{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 0px;
+    border-top: 1px #8a8686 solid;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    z-index: 1;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+li{
+    list-style: none;
+}
+nav ul{
+}
+nav a{
+    text-decoration: none;
+    color: #5d5f6a;
+    font-size: 18px;
+}
+nav span{
+    display: block;
+}
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.act{
+    color: #f23030;
+}
+nav ul li:nth-of-type(3){
+    position: relative;
+}
+.hou{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+}
+/*-导航结束-*/
+/*search上 开始*/
+.search{
+    color: #fff;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.search .left,.search .center,.search .right{
+    float: left;
+}
+.search .left,.search .right{
+    text-align: center;
+    width: 20%;
+}
+.search .left i,.search .right i{
+    font-size: 24px;
+}
+.search .left span,.search .right span{
+    display: block;
+    font-size: 12px;
+}
+.search .center{
+    width: 60%;
+    position: relative;
+}
+.search .center input{
+    width: 100%;
+    height: 36px;
+    outline: none;
+    font-size: 20px;
+    padding: 0px 36px;
+    border-radius: 25px;
+    border: none;
+    color: #000;
+}
+.search .center i{
+    font-size: 20px;
+    color: #9b9b9b;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+.search .center i.fa-microphone{
+    right: 15px;
+    left: auto;
+}
+.num img{
+    width: 100%;
+    height: 214px;
+    display: inline-block;
+}
+
+.swiper-pagination-bullet {
+    background: #fff;
+    opacity: .4;
+    width: 10px;
+    height: 2px;
+    border-radius: 0;
+    display: inline-block;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px #fff solid;
+    position: relative;
+    top: 3px;
+}
+
+/*search上 结束*/
+
+/*app开始*/
+.app{
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 1;
+}
+.app div{
+    width: 20%;
+    float: left;
+    padding: 10px 4px;
+    text-align: center;
+}
+.app div img{
+    width: 100%;
+    padding: 2px 4px;
+}
+.app div p{
+    font-size: 12px;
+    margin:0px 0px -12px 0px;
+}
+.app div a{
+    text-decoration: none;
+    color: #848689;
+}
+/*
+.app div:nth-of-type(1),.app div:nth-of-type(2),.app div:nth-of-type(3),.app div:nth-of-type(4),.app div:nth-of-type(5){
+    padding-top: 8px;
+}
+*/
+
+/*-app结束-*/
+/*-news快报开始-*/
+.news{
+    background-color:#fff;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#id1{
+    background-color: #f5f5f5;
+}
+.news .left{
+    float: left;
+    width: 22%;
+    font-size: 12px;
+}
+.news .center{
+    float: left;
+    width: 62%;
+    font-size: 12px;
+    overflow: hidden;
+    height: 16px;
+}
+.news .right{
+    float: left;
+    width: 16%;
+    font-size: 12px;
+}
+.news .center a{
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+.news a{
+    text-decoration: none;
+    color: #000;
+}
+.news .center em{
+    font-style: inherit;
+    margin-right: 5px;
+    color: red;
+}
+.txt{
+/*    transition: 1s;*/
+}
+
+/*-news结束-*/
+/*-miao 秒杀 开始-*/
+.miaosha{
+    background-color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+    font-family: 黑体;
+}
+.miaosha .title{
+    padding: 0px 7px;
+}
+.miaosha .left{
+     background-image: url(../img/miaosha/miao_bg.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-left: -5px;
+}
+.miaosha .title .left{
+    float: left;
+    font-size: 15px;
+    width: 69%;
+}
+.miaosha .title .left .time{
+    font-size: 13px;
+}
+.miaosha .tit,.miaosha .left i{
+    font-weight: bold;
+    color: red;
+}
+.miaosha .left .a,
+.miaosha .left .b,
+.miaosha .left .c{
+    background-color: #000;
+    color: #fff;
+    padding: 0px 3px;
+}
+.miaosha .title .right{
+    float: right;
+    font-size: 12px;
+    width: 31%;
+    padding-top: 5px;
+}
+.miaosha .title .right a{
+    text-decoration: none;
+    color: red;
+    position: relative;
+    top: 2px;
+}
+.shop{
+    overflow: scroll;
+    height: 120px;
+}
+.shop ul{
+    width: 700px;
+/*    overflow: hidden;*/
+}
+.shop ul li{
+    float: left;
+    width: 70px;
+    height: 65px;
+    position: relative;
+}
+.shop ul li img{
+    width: 100%;
+}
+.shop ul li a{
+    text-decoration: none;
+}
+.shop ul li p{
+    color: #f62d2d;
+    font-size: 14px;
+    text-align: center;
+}
+.shop ul li p del{
+    font-size: 12px;
+    color: #ababab;
+}
+.shop ul li i{
+    background-size: cover;
+}
+.remai{
+    background-image: url(../img/miaosha/remai.png);
+    width: 38px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.tuijian{
+    background-image: url(../img/miaosha/tuijian.png);
+    width: 38px;
+    height: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+}
+.shop ul li a p:nth-of-type(1){
+    margin-bottom: 0px;
+}
+/*-miao 秒杀 结束-*/
+/*faxian 发现开始*/
+.faxian{
+    font-family: 黑体;
+/*    height: 300px;*/
+    background-color: #fff;
+}
+.faxian .row .col-xs-6 img{
+    width: 100%;
+}
+.faxian .row{
+    width: 100%;
+}
+.faxian .col-xs-6{
+    padding: 0px;
+}
+#row1,#row2,.faxian .row{
+    margin: 0px;
+}
+.faxian row{
+    margin: 0px;
+}
+
+.faxian .container{
+    padding: 0px 0px;
+}
+.faxian h4{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.faxian p{
+    font-size: 15px;
+}
+.bl{
+    border-left: 1px #afafaf solid;
+}
+.br{
+    border-right: 1px #afafaf solid;
+}
+.bt{
+    border-top: 1px #afafaf solid;
+}
+.bb{
+    border-bottom: 1px #afafaf solid;
+}
+.faxian #xs-1{
+    padding-left: 8px;
+}
+.faxian #row2{
+    padding-right: 8px;
+}
+.faxian .fah1{
+    background: linear-gradient(to right,#f3070e,#ff0c9a);
+    -webkit-background-clip:text;
+    color: transparent;
+/*    color: #23a9db;*/
+}
+.faxian .fah2{
+    background: linear-gradient(to right,#ff0117,#ff009a);
+    -webkit-background-clip:text;
+    color: transparent;
+/*    color: #ff0161;*/
+}
+.faxian .fah3{
+    background: linear-gradient(to right,#ff6e00,#ffae00);
+    -webkit-background-clip:text;
+    color: transparent;
+/*    color: #ffc797;*/
+}
+.faxian .fah4{
+    background: linear-gradient(to right,#d905eb,#fe3014);
+    -webkit-background-clip:text;
+    color: transparent;
+/*    color: #ff088e;*/
+}
+/*faxian 发现结束*/
+/*爱生活开始*/
+.aisheng .container{
+    background-color: #fff;
+    padding: 0px 0px;
+}
+.aisheng .top-bg{
+    background-image: url(../img/aisheng/aisheng_bg.gif);
+    background-size: cover;
+    text-align: center;
+}
+.aisheng .top-bg h2{
+    margin-top: 3px;
+    font-size: 22px;
+    padding-top: 7px;
+    font-weight: bold;
+    background: linear-gradient(to right,#eb4c80,#dc7530);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.aisheng .row .col-xs-6{
+    padding: 0px;
+    margin: 0px;
+}
+.aisheng .row .col-xs-6 img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.aisheng .row{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.aisheng p{
+    color: #ff5959;
+    font-size: 14px;
+    padding-left: 4px;
+}
+.aisheng h4{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#aiid{
+    padding-left: 7px;
+    height: 160px;
+}
+#aiid2{
+    padding-right: 7px;
+    height: 160px;
+}
+.aisheng .col-xs-6{
+    position: relative;
+}
+.aicha1{
+    background-image: url(../img/aisheng/cha1.png);
+    width: 40px;
+    height: 15px;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.aicha2{
+    background-image: url(../img/aisheng/cha2.png);
+    width: 40px;
+    height: 15px;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.aicha3{
+    background-image: url(../img/aisheng/cha3.png);
+    width: 40px;
+    height: 15px;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+}
+/*爱生活结束*/
+/*-品质时尚开始-*/
+
+.pinzhi .container{
+    background-color: #fff;
+}
+.pinzhi .top-bg{
+    background-image: url(../img/pinzhishishang/pinzhi_bg.png);
+    background-size: cover;
+    text-align: center;
+}
+.pinzhi .top-bg h2{
+    margin-top: 3px;
+    font-size: 22px;
+    padding-top: 7px;
+    font-weight: bold;
+    background: linear-gradient(to right,#ca2ee9,#f46454);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.pinzhi h4{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.pinzhi p{
+    margin-bottom: 0px;
+    color: #d663e1;
+}
+.pinzhi .num1,.pinzhi .num2,.pinzhi .num3{
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.pinzhi .num1 div,.pinzhi .num2 div,.pinzhi .num3 div{
+    position: relative;
+}
+.pinzhi .num1 div{
+    width: 30%;
+    float: left;
+    margin-right: 5px;
+}
+.pinzhi .num1 div img,.pinzhi .num2 div img,.pinzhi .num3 div img{
+    width: 100%;
+}
+.pinzhi .num2 div{
+    width: 47%;
+    float: left;
+    margin-right: 4px;
+}
+.pinzhi .num3 div{
+    width: 47%;
+    float: left;
+    margin-right: 4px;
+}
+.pinzhi .num3{
+    padding-left: 7px;
+}
+.pinzhi div .num2:nth-of-type(1) img{
+    margin-top: 10px;
+}
+.pinzhi div .num3:nth-of-type(1) img{
+    margin-top: 7px;
+}
+.aisheng .col-xs-6{
+    position: relative;
+}
+.quan{
+    background-image: url(../img/pinzhishishang/quan.png);
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.qiang{
+    background-image: url(../img/pinzhishishang/qiang.png);
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.qian{
+    background-image: url(../img/pinzhishishang/qian.png);
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/*-品质时尚结束-*/
+
+/*特色推荐开始*/
+.tese{
+    background-color: #fff;
+}
+.tese .top-bg{
+    background-image: url(../img/tese/tese_bg.png);
+    background-size: cover;
+    text-align: center;
+}
+.tese .top-bg h2{
+    margin-top: 3px;
+    font-size: 22px;
+    padding-top: 7px;
+    font-weight: bold;
+    background: linear-gradient(to right,#428ecf,#a946d2);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+.tese .num1 div,.tese .num2 div,.tese .num3 div{
+    width: 50%;
+    float: left;
+}
+.tese .num1 img,.tese .num2 img,.tese .num3 img{
+    width: 100%;
+}
+.tese h4{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.tese p{
+    margin-bottom: 0px;
+    color: #648eff;
+}
+.tese .num1,.tese .num2,.tese .num3{
+    padding-left: 8px;
+    padding-right: 0px;
+}
+.tese .num1:nth-of-type(2),.tese .num2:nth-of-type(2),.tese .num3:nth-of-type(2){
+    padding-left: 4px;
+}
+.tese .num1 div,.tese .num2 div,.tese .num3 div{
+    position: relative;
+}
+.mianfei{
+    background-image: url(../img/tese/mianfei.png);
+    width: 48px;
+    height: 13px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.yiyuan{
+    background-image: url(../img/tese/1yuan.png);
+    width: 48px;
+    height: 13px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.fengqiang{
+    background-image: url(../img/tese/femgqiang.png);
+    width: 48px;
+    height: 13px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+/*特色推荐结束*/
+
+/*逛商场开始*/
+.guangshang{
+    background-color: #fff;
+}
+.guangshang .top-bg{
+    background-image: url(../img/guangshang/top_bg.png);
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+.guangshang .top-bg h2{
+    margin-top: 3px;
+    font-size: 22px;
+    padding-top: 7px;
+     background: linear-gradient(to right,#f95282,#f26b1e);
+    -webkit-background-clip:text;
+    color: transparent;
+    
+}
+.guangshang .top-bg p{
+    float: right;
+    margin-top: -33px;
+    margin-right: 10px;
+}
+.guangshang .row:nth-of-type(1){
+    margin-top: 10px;
+}
+.guangshang .col-xs-6{
+    padding: 0px 6px;
+}
+.guangshang .col-xs-6 h4{
+    margin-bottom: 0px;
+}
+.guangshang .col-xs-6 p{
+    margin-bottom: 0px;
+}
+.guangshang .col-xs-6 div{
+    width: 50%;
+    float: left;
+}
+.guangshang .col-xs-6 img{
+    width: 100%;
+}
+.guangshang .row p,.guangshang .top-bg i{
+    color: #ff7878;
+}
+
+/*逛商场结束*/
+/* 东 家 小 院 */
+.dongjia{
+    text-align: center;
+    background-image: url(../img/guangshang/top_bg.png);
+    background-size: cover;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.dongjia h2{
+    margin: 0;
+    background: linear-gradient(to right, #F30046 37%, #fd5349 56%,#f36b1c 10%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+.dongjia a{
+    color: #b4b4b4;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.dongjia i{
+        background: url(../img/miaosha/jiantou.jpg);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
+.xiaoyuan img{
+    width: 100%;
+}
+.xiaoyuan{
+    background: #fff;
+}
+.xiaoyuan .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.xiaoyuan .col-xs-6,.xiaoyuan .col-xs-3,.xiaoyuan .col-xs-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.xiaoyuan h3{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.xiaoyuan p{
+    font-size: 11px;
+    padding-left: 7px;
+    color: #d663e1;
+}
+/* 发 现 好 店 */
+
+.haodian{
+    text-align: center;
+    background-image: url(../img/guangshang/top_bg.png);
+    background-size: cover;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.haodian h2{
+    margin: 0;
+    background: linear-gradient(to right, #F30046 37%, #fd5349 56%,#f36b1c 10%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+.haodian a{
+    position: absolute;
+    top: 20px;
+    color: #b4b4b4;
+    right: 0px;
+}
+.haodian i{
+        background: url(../img/miaosha/jiantou.jpg);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
+
+
+.haodian-shop img{
+    width: 100%;
+}
+.haodian-shop{
+    background: #fff;
+}
+.haodian-shop .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.haodian-shop .col-xs-6,.haodian-shop .col-xs-3,.haodian-shop .col-xs-4,.haodian-shop .col-xs-8,.haodian-shop .col-xs-9{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.haodian-shop h3{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.haodian-shop p{
+    font-size: 11px;
+    padding-left: 7px;
+    color: #6e95ff;
+}
+.haodian-shop .text1,.haodian-shop .text2{
+    padding: 3px 0px;
+}
+/* 优选清单 */
+
+.youxuan{
+    text-align: center;
+    background-image: url(../img/tese/tese_bg.png);
+    background-size: cover;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.youxuan h2{
+    margin: 0;
+    background: linear-gradient(to right, #F30046 37%, #fd5349 56%,#f36b1c 10%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+.youxuan a{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: #b4b4b4;
+}
+.youxuan i{
+  background:url(../img/miaosha/jiantou.jpg);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
+
+.youxuan-shop{
+    margin-bottom: 10px;
+}
+.youxuan-shop img{
+    width: 100%;
+}
+.youxuan-shop{
+    background: #fff;
+}
+.youxuan-shop .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.youxuan-shop .col-xs-6,.youxuan-shop .col-xs-3,.youxuan-shop .col-xs-4,.youxuan-shop .col-xs-8,.youxuan-shop .col-xs-9{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.youxuan-shop h3{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.youxuan-shop p{
+    font-size: 11px;
+    color: #666666;
+    margin: 0;
+    padding: 5px 0px;
+    
+}
+
+.youxuan-shop span{
+    color: red;
+}
+/*
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}  */
+/*京东直播开始*/
+.zhibo{
+    background-color: #a173a2;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    height: 240px;
+}
+.zhibo .top-bg{
+    background-image: url(../img/jingdongzhibo/jingdong_top_bg.png);
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+.zhibo .top-bg h2{
+    margin-top: 3px;
+    font-size: 22px;
+    padding-top: 7px;
+/*
+     background: linear-gradient(to right,#f95282,#f26b1e);
+    -webkit-background-clip:text;
+    color: transparent;
+*/
+    
+}
+.zhibo .top-bg p{
+    float: right;
+    margin-top: -33px;
+    margin-right: 10px;
+}
+.zhibo{
+    text-align: center;
+}
+.zhibo .zhibo-imgs{
+    width: 930px;
+}
+.zhibo .zhibo-img1{
+    width: 290px;
+    margin-left: 20px;
+    float: left;
+}
+
+.zhibo img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*京东直播结束*/
+/*-为你推荐开始-*/
+.weinituijian{
+    height:2030px;
+}
+.weini{
+    text-align: center;
+    background-image: url(../img/guangshang/top_bg.png);
+    background-size: cover;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.weini h2{
+    margin: 0;
+    background: linear-gradient(to right, #F30046 37%, #fd5349 56%,#f36b1c 10%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+.weini a{
+    color: #b4b4b4;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.weini i{
+        background: url(../img/miaosha/jiantou.jpg);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
+#app ul{
+    width: 100%;
+    margin-top: -10px;
+}
+#app ul li{
+    width: 48.9%;
+    background-color: #fff;
+    float: left;
+    margin-top: 8px;
+    height: 260px;
+}
+#app .row .col-xs-6{
+    padding: 0px 0px;
+/*    padding-right: 0px;*/
+/*    padding-left: 0px;*/
+}
+#app ul li:nth-of-type(1),#app ul li:nth-of-type(3),#app ul li:nth-of-type(5),#app ul li:nth-of-type(7),#app ul li:nth-of-type(9),#app ul li:nth-of-type(11),#app ul li:nth-of-type(13){
+    margin-right: 8px;
+}
+#app img{
+    width: 100%;
+}
+#app li p:nth-of-type(2){
+    font-size: 16px;
+    color: red;
+}
+#app li p:nth-of-type(2),#app li i{
+    float: left;
+/*    margin-right: 6px;*/
+    margin-left: 6px;
+    font-style:normal;
+}
+#app li a{
+    color: #000;
+}
+#app li:nth-of-type(1) #appa1{
+    display: none;
+}
+#app li #appa1{
+    margin-left: 60px;
+    margin-top: -5px;
+    background-color: #fff;
+    border: 1px solid #cbcaca;
+    padding: 2px 5px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+/*-为你推荐结束-*/
+/*-箭头-*/
+.jiantou{
+    background-image: url(../img/jiantou.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    display: none;
+}
+/*text-overflow: ellipsis;*/
+
+
+
+/*-cort-*/
+.cort .main{
+    padding-top: 58px;
+}
+.cort .main .container-fluid{
+    border-top: 1px #000 solid;
+    height: 1260px;
+}
+.cort .search{
+    background-color: #fff;
+    color: #81838e;
+}
+.cort .search input{
+    background-color: #f0f2f5;
+}
+.cort .container{
+    padding: 0px;
+}
+.cort .col-xs-3,.cort .col-xs-4{
+    padding: 0px;
+}
+.cort .main ul li{
+    padding: 5px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.cort .cort-nav .ara{
+    background-color: #fff;
+    color: red;
+}
+.cort .col-xs-9 h3{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+.cort .main .col-xs-9 img{
+    width: 100%;
+    padding-top: 10px;
+}
+.cort .main .col-xs-9 .col-xs-4 a img{
+    width: 100%;
+}
+.cort .col-xs-9{
+    text-align: center;
+    background-color: #fff;
+}
+.cort .cort-list h3{
+    padding-left: 20px;
+}
+.cort .ara .araimg1{
+    padding: 10ox 10px 0px 10px;
+}
+.cort .col-xs-9 > div{
+    display: none;
+}
+.cort .col-xs-9 .ara{
+    display: block;
+}
+/*
+.are{
+    display: none;
+}*/

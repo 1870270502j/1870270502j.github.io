@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <link rel="stylesheet" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   <style>
+       .guan div{
+        float: left;
+        color: #fff;
+        font-size: 14px;
+           height: 50px;
+       }
+       .guan::after{
+        display: table;
+        content: "";
+        clear: both;
+        }
+       .zuo1{
+           width: 70%;
+           background-color: #000;
+           text-align: center;
+           padding-top: 13px;
+       }
+       .you1{
+            width: 30%;
+           background-color: red;
+           padding-top: 13px;
+       }
+       .gu{
+            margin-right: 30px;   
+        }
+    </style>
+ 
+</head>
+<body>
+       <div class="guan">
+       <div class="zuo1"><span class="gu">X</span>打开京东app购物</div>
+       <div class="you1">立即打开</div>
+       </div>
+    <nav>
+       <ul class="clearfix">
+        <li><a href="index.html" class="act"><i class="fa fa-home"></i><span>首页</span></a></li>
+        <li><a href="cort.html"><i class="fa fa-navicon"></i><span>分类</span></a></li>
+        <li><a href="#"><i class="fa fa-check-circle-o"></i><i class="hou"></i><span>觅Me</span></a></li>
+        <li><a href="#"><i class="fa fa-cart-plus"></i><span>购物车</span></a></li>
+        <li><a href="#"><i class="fa fa-user"></i><span>我的</span></a></li>
+       </ul>
+    </nav>
+    <div class="search clearfix">
+        <div class="left">
+            <i class="fa fa-qrcode"></i>
+            <span>扫啊扫</span>
+        </div>
+        <div class="center">
+           <i class="fa fa-search"></i>
+           <i class="fa fa-microphone"></i>
+            <input type="text" placeholder="华为荣耀8">
+        </div>
+        <div class="right">
+            <i class="fa fa-commenting-o"></i>
+            <span>消息</span>
+        </div>
+    </div>
+<!--    轮播图-->
+    <div class="num swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/banner_img.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/gracetan_01.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/gracetan_02.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/gracetan_03.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/gracetan_04.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/gracetan_05.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/06.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/07.jpg" alt="">
+            </div>
+        </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    </div>
+<!--    app-->
+    <div class="app clearfix">
+        <div>
+            <a href="#">
+                <img src="img/app/chaoshi.png" alt="">
+                <p>京东超市</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/quanqiugou.png" alt="">
+                <p>全球购</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/fuzhuangcheng.png" alt="">
+                <p>服装城</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/shengxian.png" alt="">
+                <p>京东生鲜</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/paihangbang.png" alt="">
+                <p>排行榜</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/chongzhi.png" alt="">
+                <p>充值中心</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/lingjingdou.png" alt="">
+                <p>领金豆</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/lingjuan.png" alt="">
+                <p>领券</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/huizhuanqian.png" alt="">
+                <p>惠赚钱</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="img/app/hiuyuan.png" alt="">
+                <p>PLUS会员</p>
+            </a>
+        </div>
+    </div>
+<!--    京东快报-->
+   <div class="container" id="id1">
+       <div class="news clearfix">
+              <div class="left"><strong>京东快报：</strong></div>
+           <div class="center">
+              <div class="txt">
+                  <a href=""><em>1荐</em>换新，就今天，万件新品邀你免费</a>
+              </div>
+               <div class="txt">
+                  <a href=""><em>2荐</em>换新，就今天，万件新品邀你免费</a>
+              </div>
+              <div class="txt">
+                  <a href=""><em>3荐</em>换新，就今天，万件新品邀你免费</a>
+              </div>
+           </div>
+           <div class="right">|  <a href="#">更多</a></div>
+        </div>
+   </div>
+    
+<!--    京东秒杀-->
+<div class="miaosha">
+    <div class="title clearfix">
+        <div class="left">
+            <i class="fa fa-clock-o"></i><span class="tit">京东秒杀</span> <span class="time">8点场</span>
+            <span class="a" id="hour">00</span>:<span class="b" id="mini">00</span>:<span class="c" id="sec">00</span>
+        </div>
+        <div class="right"><a href="#">秒杀尖货周一见<i class="fa fa-chevron-circle-right"></i></a></div>
+    </div>
+    <div class="shop">
+        <ul class="clearfix">
+            <li>
+                <a href="">
+                   <i class="remai"></i>
+                    <img src="img/miaosha/miaosha_1.png" alt="">
+                    <p>￥129</p>
+                    <p><del>￥139</del></p>
+                </a>
+            </li>
+            <li>
+               <i class="tuijian"></i>
+                <a href=""><img src="img/miaosha/miaosha_2.png" alt=""><p>￥4599</p><p><del>￥5399</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_3.png" alt=""><p>￥8288</p><p><del>￥8488</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_4.png" alt=""><p>￥109</p><p><del>￥158</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_2.png" alt=""><p>￥129</p><p><del>￥139</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_1.png" alt=""><p>￥129</p><p><del>￥139</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_3.png" alt=""><p>￥129</p><p><del>￥139</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_4.png" alt=""><p>￥129</p><p><del>￥139</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_1.png" alt=""><p>￥129</p><p><del>￥139</del></p></a>
+            </li>
+            <li>
+               <i></i>
+                <a href=""><img src="img/miaosha/miaosha_1.png" alt=""><p>￥129</p><p><del>￥139</del></p></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--发现好货-->
+<div class="faxian">
+   <div class="container">
+       <div class="row" id="row1">
+        <div class="col-xs-6 br bt">
+            <div class="row" id="xs-1">
+               <h4 class="fah1">发现好货</h4>
+                <p>发现 品质生活</p>
+                <div class="col-xs-6">
+                    <img src="img/faxian/1.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                    <img src="img/faxian/2.png" alt="">
+                </div>
+            </div>
+            <div class="row bt" id="xs-1">
+               <h4 class="fah2">排行榜</h4>
+                <p>网罗全民挚爱</p>
+                <div class="col-xs-6">
+                    <img src="img/faxian/5.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                    <img src="img/faxian/6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 bt" id="xs-2">
+            <div class="row" id="row2">
+                <div class="col-xs-6 br">
+                    <h4 class="fah3">优品专辑</h4>
+                    <p>双摄更出众</p>
+                    <img src="img/faxian/3.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                    <h4 class="fah3">京东精选</h4>
+                    <p>网红护肤</p>
+                    <img src="img/faxian/4.png" alt="">
+                </div>
+            </div>
+            <div class="row bt" id="row2">
+                <div class="col-xs-6 br">
+                    <h4 class="fah4">新品首发</h4>
+                    <p>新品0元试</p>
+                    <img src="img/faxian/7.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                    <h4 class="fah4">闪购</h4>
+                    <p>品牌特卖</p>
+                    <img src="img/faxian/8.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</div>
+<!--爱生活-->
+<div class="aisheng">
+   <div class="top-bg">
+        <h2>爱/生/活</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-xs-6">
+            <div class="row br bb" id="aiid">
+               <h4>玩3C</h4>
+                <p>iPhone6 32G金12期免息购</p>
+                <div class="col-xs-6">
+                   <i></i>
+                    <img src="img/aisheng/1.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                   <i></i>
+                    <img src="img/aisheng/2.png" alt="">
+                </div>
+            </div>
+            <div class="row br bb" id="aiid">
+               <h4>京东超市</h4>
+                <p>每满199减100</p>
+                <div class="col-xs-6">
+                   <i class="aicha2"></i>
+                    <img src="img/aisheng/3.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                   <i></i>
+                    <img src="img/aisheng/4.png" alt="">
+                </div>
+            </div>
+            <div class="row br" id="aiid">
+               
+                <div class="col-xs-6 br">
+                   <h4>爱宝宝</h4>
+                <p>最高199-100</p>
+                   <i></i>
+                    <img src="img/aisheng/5.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                   <h4>爱美丽</h4>
+                <p>粉色纪梵希</p>
+                   <i class="aicha3"></i>
+                    <img src="img/aisheng/6.png" alt="">
+                </div>
+            </div>
+            </div>
+            <div class="col-xs-6">
+            <div class="row bb" id="aiid2">
+               <h4>京东家电</h4>
+                <p>领卷最高减2000元</p>
+                <div class="col-xs-6">
+                   <i class="aicha1"></i>
+                    <img src="img/aisheng/7.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                   <i></i>
+                    <img src="img/aisheng/8.png" alt="">
+                </div>
+            </div>
+            <div class="row bb" id="aiid2">
+               <h4>爱家</h4>
+                <p>跨店4免1满200-50任你选</p>
+                <div class="col-xs-6">
+                   <i></i>
+                    <img src="img/aisheng/9.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                   <i></i>
+                    <img src="img/aisheng/10.png" alt="">
+                </div>
+            </div>
+            <div class="row" id="aiid2">
+               
+                <div class="col-xs-6 br">
+                   <h4>爱吃</h4>
+                <p>零食199减100</p>
+                   <i></i>
+                    <img src="img/aisheng/11.png" alt="">
+                </div>
+                <div class="col-xs-6">
+                   <h4>爱穿搭</h4>
+                    <p>新品199-100</p>
+                    <i></i>
+                    <img src="img/aisheng/12.png" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--品质时尚-->
+
+<div class="pinzhi">
+    <div class="top-bg">
+        <h2>品/质/时/尚</h2>
+    </div>
+    <div class="container">
+        <div class="row bb">
+            <div class="col-xs-6 num1 clearfix">
+                <h4>会逛</h4>
+                <p>不知不觉露肉季已到</p>
+                <div>
+                   <i></i>
+                    <img src="img/pinzhishishang/1.png" alt="">
+                </div>
+                <div>
+                    <i></i>
+                     <img src="img/pinzhishishang/2.png" alt="">
+                </div>
+                <div>
+                   <i></i>
+                    <img src="img/pinzhishishang/3.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 num1 clearfix bl">
+                <h4>品牌头条</h4>
+                <p>最优质的全在这里</p>
+                <div>
+                   <i></i>
+                    <img src="img/pinzhishishang/4.png" alt="">
+                </div>
+                <div>
+                   <i></i>
+                    <img src="img/pinzhishishang/5.png" alt=""></div>
+                <div>
+                    <i></i><img src="img/pinzhishishang/6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row bb">
+            <div class="col-xs-6 num2 clearfix">
+                <h4>全球尖货</h4>
+                <p>进口商品直降</p>
+                <div>
+                    <i class="quan"></i>
+                    <img src="img/pinzhishishang/7.png" alt="">
+                </div>
+                <div>
+                    <i></i>
+                    <img src="img/pinzhishishang/8.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 num2 clearfix bl">
+                <h4>奢品大牌</h4>
+                <p>欧米茄新款上市</p>
+                <div>
+                    <i class="qiang"></i><img src="img/pinzhishishang/9.png" alt="">
+                </div>
+                <div>
+                    <i></i><img src="img/pinzhishishang/10.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 num3 clearfix">
+                <div>
+                   <h4>京东体育</h4>
+                    <p>运动大牌惠</p>
+                    <i></i>
+                    <img src="img/pinzhishishang/11.png" alt="">
+                </div>
+                <div>
+                    <h4>珠宝首饰</h4>
+                    <p>大牌PK</p>
+                    <i></i>
+                    <img src="img/pinzhishishang/12.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 num3 clearfix bl">
+                <div>
+                    <h4>环球时尚</h4>
+                    <p>全购跨店减</p>
+                    <i class="qian"></i>
+                    <img src="img/pinzhishishang/13.png" alt="">
+                </div>
+                <div>
+                    <h4>达人精选</h4>
+                    <p>明天穿什么</p>
+                    <i></i>
+                    <img src="img/pinzhishishang/14.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--特色推荐-->
+<div class="tese">
+    <div class="top-bg">
+        <h2>特/色/推/荐</h2>
+    </div>  
+    <div class="container">
+        <div class="row bb">
+            <div class="col-xs-6 num1 clearfix br">
+               <h4>只能生活</h4>
+                <p>小米滑板车 红点最佳设计</p>
+                <div>
+                   <i></i>
+                    <img src="img/tese/1.png" alt="">
+                </div>
+                <div>
+                    <i></i>
+                     <img src="img/tese/2.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 num1 clearfix">
+                <div>
+                  <h4>京东众筹</h4>
+                  <p>铝碳智能车</p>
+                   <i class="mianfei"></i>
+                    <img src="img/tese/3.png" alt="">
+                </div>
+                <div>
+                   <h4>生活娱乐</h4>
+                   <p>1元抢什么</p>
+                   <i class="yiyuan"></i>
+                    <img src="img/tese/4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row bb">
+            <div class="col-xs-6 num2 clearfix br">
+                <h4>白条商城</h4>
+                <p>大牌0首付 iPhone12期免息呦</p>
+                <div>
+                    <i class=""></i>
+                    <img src="img/tese/5.png" alt="">
+                </div>
+                <div>
+                    <i></i>
+                    <img src="img/tese/6.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 num2 clearfix">
+                <div>
+                   <h4>爱车生活</h4>
+                    <p>满199-100</p>
+                    <i class=""></i><img src="img/tese/7.png" alt="">
+                </div>
+                <div>
+                   <h4>大药房</h4>
+                    <p>板蓝根8元</p>
+                    <i></i><img src="img/tese/8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 num3 clearfix">
+                <div>
+                   <h4>二手清仓</h4>
+                    <p>iPhone 6秒杀</p>
+                    <i class="fengqiang"></i>
+                    <img src="img/tese/9.png" alt="">
+                </div>
+                <div>
+                    <h4>设计师</h4>
+                    <p>潮流设计精选</p>
+                    <i></i>
+                    <img src="img/tese/10.png" alt="">
+                </div>
+            </div>
+            <div class="col-xs-6 num3 clearfix bl">
+                <div>
+                    <h4>陪伴宝宝</h4>
+                    <p>一元疯抢</p>
+                    <i class="fengqiang"></i>
+                    <img src="img/tese/11.png" alt="">
+                </div>
+                <div>
+                    <h4>京东拍卖</h4>
+                    <p>酒香回味无穷</p>
+                    <i></i>
+                    <img src="img/tese/12.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--逛商场-->
+<div class="guangshang">
+    <div class="top-bg clearfix">
+        <h2>逛/商/场</h2>
+        <p>更多<i class="fa fa-chevron-circle-right"></i></p>
+    </div>
+    <div class="container">
+        <div class="row">
+           <div class="col-xs-6 clearfix">
+                <div>
+                    <h4>电脑办公</h4>
+                    <p>500元神卷抢</p>
+                </div>
+                <div>
+                    <img src="img/guangshang/1.png" alt="">
+                </div>
+           </div>
+           <div class="col-xs-6">
+               <div>
+                    <h4>时尚馆</h4>
+                    <p>玛汐大品牌</p>
+                </div>
+                <div>
+                    <img src="img/guangshang/2.png" alt="">
+                </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-xs-6 clearfix">
+                <div>
+                    <h4>大家电馆</h4>
+                    <p>最高减1500</p>
+                </div>
+                <div>
+                    <img src="img/guangshang/3.png" alt="">
+                </div>
+           </div>
+           <div class="col-xs-6">
+               <div>
+                    <h4>个护清理</h4>
+                    <p>爆款买一送一</p>
+                </div>
+                <div>
+                    <img src="img/guangshang/4.png" alt="">
+                </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-xs-6 clearfix">
+                <div>
+                    <h4>中外名酒</h4>
+                    <p>满299减40</p>
+                    <img src="img/guangshang/5.png" alt="">
+                </div>
+                <div>
+                    <h4>手机数码</h4>
+                    <p>荣耀V9放量</p>
+                    <img src="img/guangshang/6.png" alt="">
+                </div>
+           </div>
+           <div class="col-xs-6">
+               <div>
+                    <h4>鞋靴箱包</h4>
+                    <p>好货精选</p>
+                    <img src="img/guangshang/7.png" alt="">
+                </div>
+                <div>
+                   <h4>小家电馆</h4>
+                    <p>满300减30</p>
+                    <img src="img/guangshang/8.png" alt="">
+                </div>
+           </div>
+        </div>
+        <div class="row">
+           <div class="col-xs-6 clearfix">
+                <div>
+                    <h4>生鲜馆</h4>
+                    <p>满199减20</p>
+                    <img src="img/guangshang/9.png" alt="">
+                </div>
+                <div>
+                    <h4>家装城</h4>
+                    <p>跨万店4免1</p>
+                    <img src="img/guangshang/10.png" alt="">
+                </div>
+           </div>
+           <div class="col-xs-6">
+               <div>
+                    <h4>图像音像</h4>
+                    <p>每满99减30</p>
+                    <img src="img/guangshang/11.png" alt="">
+                </div>
+                <div>
+                   <h4>钟表馆</h4>
+                    <p>满500减60</p>
+                    <img src="img/guangshang/12.png" alt="">
+                </div>
+           </div>
+        </div>
+    </div>  
+</div>
+<!--东家小院-->
+<div class="dong">
+    <div class="dongjia">
+     <h2>东 / 家 / 小 / 院 </h2>
+     <a href="">更多精彩<i></i></a>
+</div> 
+        <div class="xiaoyuan">
+            <div class="row">
+                <div class="col-xs-6 br bb text-center">
+                    <h3>——嘻唰唰——</h3>
+                    <p>衣服更香人更美</p>
+                    <div class="row">
+                        <div class="col-xs-6"><img src="img/dongjiaxiaoyuan/1.jpg" alt=""></div> 
+                        <div class="col-xs-6"><img src="img/dongjiaxiaoyuan/2.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-6 bb text-center">
+                    <h3>——租房一族——</h3>
+                    <p>随你拎包入住</p>
+                    <div class="row">
+                        <div class="col-xs-6"><img src="img/dongjiaxiaoyuan/3.jpg" alt=""></div> 
+                        <div class="col-xs-6"><img src="img/dongjiaxiaoyuan/4.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 br bb">
+                    <h3>精致客厅</h3>
+                    <p>有讲究的客厅</p>
+                    <img src="img/dongjiaxiaoyuan/5.jpg" alt="">
+                </div>
+                <div class="col-xs-3 br bb">
+                    <h3>本命年</h3>
+                    <p>本命年行好运</p>
+                    <img src="img/dongjiaxiaoyuan/6.jpg" alt="">
+                </div>
+                <div class="col-xs-3 br bb">
+                    <h3>火锅英雄</h3>
+                    <p>爱火锅爱生活</p>
+                    <img src="img/dongjiaxiaoyuan/7.jpg" alt="">
+                </div>
+                <div class="col-xs-3 bb">
+                    <h3>羽球小子</h3>
+                    <p>羽毛球大神</p>
+                    <img src="img/dongjiaxiaoyuan/8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+</div>
+ <!--        发现好店-->
+        <div class="haodian">
+            <h2>发 / 现 / 好 / 店 </h2>
+            <a href="">更多好店<i></i></a>
+        </div> 
+        <div class="haodian-shop">
+           <div class="row">
+               <div class="col-xs-6 b-r">
+                   <h3>精选</h3>
+                   <p>20家好店为你精心推荐</p>
+                   <div class="row">
+                       <div class="col-xs-8">
+                           <img src="img/faxianhaodian/1.jpg" alt="">
+                       </div>
+                       <div class="col-xs-4">
+                           <img src="img/faxianhaodian/2.jpg" alt="">
+                            <img src="img/faxianhaodian/3.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="text1">
+                   <div class="row">
+                       <div class="col-xs-3">
+                           <img src="img/faxianhaodian/text1.jpg" alt="">
+                       </div>
+                       <div class="col-xs-9">
+                           lively家纺旗舰店
+                       </div>
+                   </div>
+                   </div>
+               </div>
+               <div class="col-xs-6">
+                      <h3>女装</h3>
+                   <p>女神教师</p>
+                   <div class="row">
+                       <div class="col-xs-8">
+                           <img src="img/faxianhaodian/4.jpg" alt="">
+                       </div>
+                       <div class="col-xs-4">
+                            <img src="img/faxianhaodian/5.jpg" alt="">
+                             <img src="img/faxianhaodian/6.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="text2">
+                   <div class="row">
+                       <div class="col-xs-3">
+                           <img src="img/faxianhaodian/text2.jpg" alt="">
+                       </div>
+                       <div class="col-xs-9">
+                           京东自营-森马旗舰店
+                       </div>
+                   </div>
+                   </div>
+               </div>
+           </div>
+        </div> 
+     <!--        优选清单-->
+        <div class="youxuan">
+            <h2>优 / 选 / 清 / 单 </h2>
+            <a href="">更多清单<i></i></a>
+        </div> 
+        <div class="youxuan-shop">
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3>视频通话,成功人士必备商务智能手机盘点</h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img src="img/youxuan/1.jpg" alt="">
+                        </div>
+                        <div class="col-xs-6">
+                            <img src="img/youxuan/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <p>一一一推荐<span>34</span>件单品一一一</p>
+                </div>
+                
+                 <div class="col-xs-6">
+                    <h3>加密u盘,办公族机密文件由他守护</h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img src="img/youxuan/3.jpg" alt="">
+                        </div>
+                        <div class="col-xs-6">
+                            <img src="img/youxuan/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <p>一一一推荐<span>16</span>件单品一一一</p>
+                </div>
+            </div>
+        </div>
+<!--京东直播-->
+<div class="zhibo clearfix">
+    <div class="top-bg clearfix">
+        <h2>京/东/直/播</h2>
+        <p>更多直播<i class="fa fa-chevron-circle-right"></i></p>
+    </div>
+    <div class="es">
+        <div class="zhibo-imgs swiper-wrapper">
+            <div class="zhibo-img1 swiper-slide">
+                <img src="img/jingdongzhibo/1.png" alt="">
+            </div>
+            <div class="zhibo-img1 swiper-slide">
+                <img src="img/jingdongzhibo/1.png" alt="">
+            </div>
+            <div class="zhibo-img1 swiper-slide">
+                <img src="img/jingdongzhibo/1.png" alt="">
+            </div>
+            <div class="zhibo-img1 swiper-slide">
+                <img src="img/jingdongzhibo/1.png" alt="">
+            </div>
+            <div class="zhibo-img1 swiper-slide">
+                <img src="img/jingdongzhibo/1.png" alt="">
+            </div>
+            <div class="zhibo-img1 swiper-slide">
+                <img src="img/jingdongzhibo/1.png" alt="">
+            </div> 
+        </div>
+<!--        <div class="swiper-paginationa"></div>-->
+    </div>          
+</div> 
+<!--为你推荐--><!--Vue-->
+<div class="weinituijian">
+    <div class="weini">
+         <h2>为 / 你 / 推 / 荐</h2>
+         <a href="">更多精彩<i></i></a>
+    </div>
+    <div id="app">
+      <div class="container">
+          <div class="row">
+               <ul class="col-xs-6 clearfix">
+                    <li v-for="arr in arrs" class="clearfix">
+                        <a href="#"><img :src="arr.img" alt="">
+                        <p><i><img :src="arr.ziying" alt=""></i>{{arr.name}}</p>
+                        <p>{{arr.price}}</p></a>
+                        <i>{{arr.pare}}</i>
+                        <a id="appa1">{{arr.btn}}</a>
+                    </li>
+                </ul>
+           </div>
+      </div>
+    </div>
+</div>
+<!--箭头-->
+<div class="jiantou"></div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/timeCountDown.js"></script>
+<script src="dist/js/swiper.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/js.js"></script>
+<script src="js/vuejiegou.js"></script>
+<script>
+   
+    
+</script>
+</html>
