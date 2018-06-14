@@ -107,12 +107,12 @@ window.onscroll=function(){
     
     
     
-    var gu = document.querySelector(".gu"); 
+    var gu = document.querySelector(".gu");
     var guan = document.querySelector(".guan");
     if(sessionStorage.guan =="false"){
            guan.style.display="none";
     }else{
-        guan.style.display="block"; 
+        guan.style.display="block";
     }
         gu.onclick=function(){
          guan.style.display = "none";
